@@ -1,0 +1,5 @@
+﻿@model Dictionary<string,Setting>
+<div class="contact-info d-flex align-items-center">
+    <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">@Model["Email"].Value</a>
+    <i class="bi bi-phone-fill phone-icon"></i> @Model["Phone"].Value
+</div>
